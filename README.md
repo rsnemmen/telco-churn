@@ -5,6 +5,7 @@ EDA and modeling of telecom customer churn using scikit-learn, pandas and jupyte
 [My executive summary and lessons learned](https://rsnemmen.github.io/projects/1_churn/) from this case study can be found here.
 
 [![Interactive Tableau dashboard that I prepared for these data.](plots/tableau-churn.png)](https://public.tableau.com/views/TableauEDA_17293880396620/Customerchurn?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+*Interactive Tableau dashboard that I prepared*.
 
 The model that ended up having the best performance (95% accuracy on validation!) was a simple logistic regression, presumably because the Mock data was generated using this model with some perturbations. In a more realistic situation, XGBoost would probably perform better.
 
